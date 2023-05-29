@@ -45,9 +45,11 @@
                 <nav class="Menu1">
                     <ul>
                         <li>
+                            <a href="./index.php">
                             <!-- Registro -->
                             <button type="button" class="Registro" id="reg"><img src="../CSS/Img/usuario.png"
-                                    height="20"></button>
+                                    height="20"></button> 
+                            </a>
                         </li>
                         <li>
                             <!-- Carrito-->
@@ -608,13 +610,13 @@
                 <fieldset>
                     <legend style="color:white">Contactenos llenando todos los campos</legend>
                     <div>
-                        <input type="text" name="NombreContacto" placeholder="Tu nombre">
+                        <input class="formulario__campo" type="text" name="nombre" placeholder="Tu nombre">
                     </div>
                     <div>
-                        <input type="tel" name="TelContacto" placeholder="Tu telefono">
+                        <input class="formulario__campo" type="tel" name="tel" placeholder="Tu telefono">
                     </div>
                     <div>
-                        <input type="email" name="CorreoContacto" placeholder="Tu email">
+                        <input class="formulario__campo"  type="email" name="correo" placeholder="Tu email">
                     </div>
                     <div>
                         <textarea placeholder="Escribenos algo...">
@@ -626,6 +628,8 @@
 
                 </fieldset>
             </form>
+            <script src="../JAVASCRIPT/contactanos.js"></script>
+
         </div>
 
             <footer>
@@ -637,7 +641,8 @@
                         <br>Tel:
                         <samp>+91-124</samp><br>E-mal: <samp>servicio_cliente@gmail.com </samp>
                     </p>
-                     <div clas="Redes">
+                    <h3 style="text-align: center;">Redes Sociales:</h3>
+                    <div clas="Redes">
                         <a class="redes" href="https://facebook.com/" target="blank"><img
                             class="face"src="../CSS/Img/facebook.png" width="70px"></a>
                         <a class="redes" href="https://instagram.com/" target="blank"><img
@@ -656,7 +661,7 @@
             </footer>
     </div>
     <p class="derechos" style="text-align: center;">
-            <small ><b>Todos los derechos reservados. Ⓡ Aracely Cisneros & Carlos Babún</b></small>
+            <small ><b>Todos los derechos reservados. Ⓡ Aracely Cisneros </b></small>
 
     </p>
 
